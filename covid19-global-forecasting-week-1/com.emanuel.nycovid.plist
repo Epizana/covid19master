@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.emanuel.nycovid</string>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/Emanuel/Documents/2019 Plan/NYC Data Science Academy/Post Bootcamp/COVID-19/Forecasting/covid19-global-forecasting-week-1</string>
+
+  <key>ProgramArguments</key>
+  <array>
+        <string>/Users/Emanuel/opt/anaconda3/bin/python</string>
+        <string>/Users/Emanuel/Documents/2019 Plan/NYC Data Science Academy/Post Bootcamp/COVID-19/Forecasting/covid19-global-forecasting-week-1/nycupdate.py</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>19</integer>
+    <key>Minute</key>
+    <integer>11</integer>
+  </dict>
+
+
+  <key>StandardErrorPath</key>
+  <string>/tmp/EmanuelNYC.err</string>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/EmanuelNYC.out</string>
+
+</dict>
+</plist>
